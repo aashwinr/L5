@@ -1,9 +1,15 @@
 # Lab 5 
 
+### Contributors
+
 - Ashwin Rohit Alagiri Rajan (A16433293)
 - Kevin Chang (A17156019)
 
-[Continuous Integration Repo](https://github.com/aashwinr/continuous-integration)
+### Website Links
+
+- [Continuous Integration Repo](https://github.com/aashwinr/continuous-integration)
+- [Expose Website](https://aashwinr.github.io/L5/expose)
+- [Explore Website](https://aashwinr.github.io/L5/explore)
 
 ### Expose Findings
 
