@@ -26,11 +26,11 @@ const populate_voice_field = (event, voices_selector) => {
 }
 
 const set_speaking_image = (image_element) => {
-  image_element.src = '../images/smiling-open.png'
+  image_element.src = 'assets/images/smiling-open.png'
 }
 
 const unset_speaking_image = (image_element) => {
-  image_element.src = '../images/smiling.png'
+  image_element.src = 'assets/images/smiling.png'
 }
 
 const change_voice = (event, speech_utter) => {
