@@ -23,27 +23,27 @@ let change_image = (event, chosen_audio, image_element) => {
   if(!chosen_audio) {
     return;
   }
-  image_element.src = `/assets/images/${chosen_audio}.svg`
+  image_element.src = `../images/${chosen_audio}.svg`
 }
 
 let change_chosen_audio = (event, audio_element) => {
   let chosen_audio = event.target.value;
-  audio_element.src = `/assets/audio/${chosen_audio}.mp3`
+  audio_element.src = `../audio/${chosen_audio}.mp3`
   return chosen_audio;
 }
 
 let change_volume_icon = (event, volume, volume_icon) => {
   if(volume <= 0) {
-    volume_icon.src = `/assets/icons/volume-level-0.svg`;
+    volume_icon.src = `../icons/volume-level-0.svg`;
   }
   else if(volume < 33) {
-    volume_icon.src = `/assets/icons/volume-level-1.svg`;
+    volume_icon.src = `../icons/volume-level-1.svg`;
   }
   else if(volume < 67) {
-    volume_icon.src = `/assets/icons/volume-level-2.svg`;
+    volume_icon.src = `../icons/volume-level-2.svg`;
   }
   else {
-    volume_icon.src = `/assets/icons/volume-level-3.svg`;
+    volume_icon.src = `../icons/volume-level-3.svg`;
   }
 }
 
